@@ -1,0 +1,80 @@
+h1{
+	color: rgb(134, 68, 162);
+	font-weight: bold;
+	font-family: "Tilt Neon";
+};
+
+body{
+	font-family: sans-serif;
+	font-size: 19px;
+	background-color: rgb(221, 221, 221);
+}
+h2{
+	font-weight: bold;
+	font-family: courier;
+	color: rgb(116, 105, 182);
+	font-size: 25px;
+}
+#Campic{ width:300px;
+	box-shadow: 20px 20px 30px rgb(134, 70, 156, 0.5);
+	}
+
+#food{ 
+	width:200px;
+	height:200px;
+	border-radius: 20px;
+	}
+
+#june{ 
+	width:200px;
+	height:250px;
+	border-radius: 20px;
+}
+a{ 
+	color: rgb(225, 120, 197);
+	font-family: sans-serif;
+}
+a:hover{ 
+	color:rgb(242, 209, 209); }
+
+.image-square{ 
+	width: 400px;
+	height: 400px;
+	border-radius: 10px;
+}
+
+.container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: rgb(350, 350, 350, 1.0); /* Background color */
+    border: 1px solid #ccc; /* Border */
+    padding: 40px; /* Padding inside the container */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+@media	(max-width: 500px) { 
+	.container{ 
+	width:400px }
+ }
+
+p{ 
+	font-size:25px }
+#travel{ width:100px;
+		height:100px; }
+
+.image-circle{ 
+	width: 200px;
+	height: 200px;
+	border-radius: 10px; 
+	box-shadow: 0px 20px 30px rgb(0, 0, 0, 0.2);}
+
+.card-white{ 
+	border:2px solid rgb(134, 70, 156); 
+	padding: 40px;
+	margin: 30px 0px;
+	border-radius: 10px;
+	}
+
+.list-inline{ 
+	list-style:none;
+	}
